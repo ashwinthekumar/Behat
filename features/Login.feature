@@ -6,8 +6,8 @@ Feature: Login
     And I press "Reject"
     #When I hover over "trp-ls-shortcode-disabled-language trp-ls-disabled-language"
     #When I click element with class "trp_language_switcher_shortcode"
-    #And I am on "/es"
-    #Then I should see "Contacto"
+    And I am on "/es"
+    Then I should see "Contacto"
 
 
   Scenario: Wait
